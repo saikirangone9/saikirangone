@@ -25,7 +25,20 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		// Add your implementation here
+		  int size;
+
+        System.out.println("Enter the amount of students:");
+        size = kbd.nextInt();
+        Student[] myStudent = new Student[size];
+        String firstName;
+        String lastName;
+        int test1, test2, test3;
+        Student s;
+
+        for (int i=0; i < size; i++)
+
+}
+
 		return null;
 	}
 
@@ -36,7 +49,11 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student getStudent(int index) {
-		// Add your implementation here
+		System.out.println("Enter first name of student: " + i);
+        firstName = kbd.next();
+
+        System.out.println("Enter last name if student: " +i);
+        lastName = kbd.next();
 		return null;
 	}
 
@@ -47,12 +64,12 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void addFirst(Student student) {
-		// Add your implementation here
+		 myStudent[i].setfName(fName);
 	}
 
 	@Override
 	public void addLast(Student student) {
-		// Add your implementation here
+		  myStudent[i].setlName(lname);
 	}
 
 	@Override
